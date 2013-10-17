@@ -1,0 +1,18 @@
+{
+	"name": "length-metrics",
+	"repo": "mdawaffe/Length-Metrics",
+	"description": "Calculate string lengths according to different metrics (Unicode code point count, UCS-2 \"character\" count, byte length, etc.)",
+	"version": "0.0.1",
+	"keywords": [],
+	"dependencies": {},
+	"development": {},
+	"license": "GPL2+, MIT",
+	"main": "index.js",
+	"scripts": [
+		"index.js",
+		"metrics/native.js",
+		"metrics/ucs2.js",
+		"metrics/unicode.js",
+		"metrics/byte.js"
+	]
+}
